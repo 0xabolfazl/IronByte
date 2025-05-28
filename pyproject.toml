@@ -11,7 +11,6 @@ authors = [
 description = "Python code obfuscation tool for protecting intellectual property"
 readme = "README.md"
 requires-python = ">=3.6"
-license = {text = "MIT"}
 keywords = ["obfuscation", "security", "code-protection"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -27,3 +26,7 @@ classifiers = [
 Homepage = "https://github.com/0xabolfazl/ironbyte"
 Documentation = "https://github.com/0xabolfazl/ironbyte/docs"
 BugTracker = "https://github.com/0xabolfazl/ironbyte/issues"
+
+[tool.setuptools]
+packages = ["ironbyte"]
+include-package-data = true 
