@@ -1,2 +1,4 @@
 ironbyte/__pycache__/
 ironbyte.egg-info/
+build/lib/ironbyte/
+dist/
